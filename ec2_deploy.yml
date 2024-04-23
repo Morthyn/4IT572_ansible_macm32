@@ -1,6 +1,6 @@
 - name: Deploy to ec2
   hosts: localhost
-  connection: localhost
+  connection: local
 
   tasks:
     - name: Launch ec2 to instance
