@@ -50,7 +50,7 @@
         state: latest
         update_cache: yes
     - service:
-        name: Docker
+        name: docker
         state: started
         enabled: yes
     - name: Set proper rights for Docker service
